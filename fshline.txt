@@ -1,0 +1,24 @@
+
+
+fshline v1.0a
+(c) nba2kstuff
+
+fshline file.fsh              -> dump as bmp
+fshline folder\index.fsh      -> load as bmp
+fshline file.fsh -getidx      -> dump as DDS and PNG files for each object
+
+replace the PNG with your custom image
+delete the corresponding DDS, and it will import the PNG file
+with the command
+fshline file.fsh -setidx      -> import DDS or PNG file if dds is not there
+
+
+fshline aamackie.fsh -export "texture!bhed"  aamackie.png
+fshline aamackie.fsh -export "texture!bhed"  aamackie.psd
+
+should get dtx1a files better.
+
+
+
+
+
