@@ -1,1 +1,0 @@
-big_extract "D:\Games\FIFA Manager 22\art_04.big" "D:\Projects\fifam\content\art_04"
